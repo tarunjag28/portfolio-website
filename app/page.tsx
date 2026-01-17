@@ -144,46 +144,87 @@ export default function Home() {
       {/* Projects Section */}
       <section id="projects" className="section-container">
         <h2 className="section-title">Research Projects</h2>
+
         <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
-          <div className="card">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-xl font-semibold">AI-Generated Image Detection</h3>
-              <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">ICCCNT 2024</span>
-            </div>
-            <p className="text-gray-700">
-              Created a highly accurate CNN model for AI-generated image detection in news media, surpassing models like ResNet50 and InceptionV3.
-            </p>
-          </div>
 
-          <div className="card">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-xl font-semibold">Cross-Lingual Sentiment Analysis</h3>
-              <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">ICRTAC 2023</span>
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/10724589"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="card hover:-translate-y-1 hover:shadow-xl transition-all cursor-pointer">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">AI-Generated Image Detection</h3>
+                <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">
+                  ICCCNT 2024
+                </span>
+              </div>
+              <p className="text-gray-700">
+                Created a highly accurate CNN model for AI-generated image detection in news media,
+                surpassing models like ResNet50 and InceptionV3.
+              </p>
             </div>
-            <p className="text-gray-700">
-              Designed a cross-lingual sentiment analysis framework for political tweets (Urdu, transliterated Urdu, English) that surpassed mBERT and RoBERTa.
-            </p>
-          </div>
+          </a>
 
-          <div className="card">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-xl font-semibold">Emotion Detection System</h3>
-              <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">ICERCS 2023</span>
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/10480788"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="card hover:-translate-y-1 hover:shadow-xl transition-all cursor-pointer">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">Cross-Lingual Sentiment Analysis</h3>
+                <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">
+                  ICRTAC 2023
+                </span>
+              </div>
+              <p className="text-gray-700">
+                Designed a cross-lingual sentiment analysis framework for political tweets
+                (Urdu, transliterated Urdu, English).
+              </p>
             </div>
-            <p className="text-gray-700">
-              Developed an emotion detection system using a depth index for precise understanding, with potential applications in counseling, customer service, and market research.
-            </p>
-          </div>
+          </a>
 
-          <div className="card">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-xl font-semibold">Automated Waste-Sorting System</h3>
-              <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">ADCIS 2023</span>
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/10434164"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="card hover:-translate-y-1 hover:shadow-xl transition-all cursor-pointer">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">Emotion Depth Index/h3>
+                <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">
+                  ICERCS 2023
+                </span>
+              </div>
+              <p className="text-gray-700">
+                Developed an emotion detection system using a depth index for precise understanding.
+              </p>
             </div>
-            <p className="text-gray-700">
-              Computer vision-based automated waste-sorting system achieved 93.20% accuracy in classifying organic and recyclable materials.
-            </p>
-          </div>
+          </a>
+
+          <a
+            href="https://link.springer.com/chapter/10.1007/978-981-99-9524-0_10"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="card hover:-translate-y-1 hover:shadow-xl transition-all cursor-pointer">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-semibold">Automated Waste-Sorting System</h3>
+                <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">
+                  ADCIS 2023
+                </span>
+              </div>
+              <p className="text-gray-700">
+                Computer vision-based automated waste-sorting system achieved 93.20% accuracy.
+              </p>
+            </div>
+          </a>
+
         </div>
       </section>
 
