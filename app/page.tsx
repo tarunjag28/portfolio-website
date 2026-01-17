@@ -265,14 +265,14 @@ export default function Home() {
               </p>
               <div className="flex justify-center space-x-4 mt-6">
                 <a
-                  href="#contact"
+                  href="mailto:tarunjagadish28@gmail.com"
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
                   Email
                 </a>
                 <span className="text-gray-300">|</span>
                 <a
-                  href="#contact"
+                  href="https://www.linkedin.com/in/tarunjagadish/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 hover:text-primary-700 font-medium"
