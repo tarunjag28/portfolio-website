@@ -289,9 +289,6 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
-              <p className="text-sm text-gray-500 mt-4">
-                <em>Please update email, LinkedIn, and GitHub links in the code</em>
-              </p>
             </div>
           </div>
         </div>
