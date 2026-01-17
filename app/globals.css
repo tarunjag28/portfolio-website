@@ -8,35 +8,52 @@
   }
 
   body {
-    @apply bg-gray-50 text-gray-900 antialiased leading-relaxed;
+    @apply bg-surface-muted text-text antialiased leading-relaxed;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-gray-900 font-semibold;
+    @apply text-text font-semibold tracking-tight;
+  }
+
+  a {
+    @apply text-primary-600 hover:text-primary-700 transition-colors;
   }
 }
 
 @layer components {
   /* Layout */
   .section-container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20;
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+           py-16 sm:py-20;
   }
 
-  /* Typography */
+  /* Headings */
   .section-title {
-    @apply text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900
-           mb-10 text-center tracking-tight;
+    @apply text-3xl sm:text-4xl md:text-5xl
+           font-bold text-text text-center mb-10;
   }
 
   .section-subtitle {
-    @apply max-w-2xl mx-auto text-lg text-gray-600 text-center mb-12;
+    @apply max-w-2xl mx-auto text-lg text-text-muted
+           text-center mb-12;
   }
 
-  /* Cards */
+  /* Card */
   .card {
-    @apply bg-white rounded-xl p-6 shadow-sm
+    @apply bg-surface rounded-xl p-6 shadow-soft
            transition-all duration-300 ease-out
-           hover:shadow-xl hover:-translate-y-1
-           focus-within:ring-2 focus-within:ring-gray-900/10;
+           hover:-translate-y-1 hover:shadow-xl
+           focus-within:ring-2 focus-within:ring-primary-500/30;
+  }
+
+  /* Primary Button (bonus) */
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           rounded-xl px-6 py-3 font-medium
+           bg-primary-600 text-white
+           hover:bg-primary-700
+           focus:outline-none focus:ring-2
+           focus:ring-primary-500/50
+           transition;
   }
 }
