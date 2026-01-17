@@ -264,32 +264,31 @@ export default function Home() {
                 <strong>Location:</strong> Los Angeles, CA
               </p>
               <div className="flex justify-center space-x-4 mt-6">
-  <a
-    href="mailto:tarunjagadish28@gmail.com"
-    className="text-primary-600 hover:text-primary-700 font-medium"
-  >
-    Email
-  </a>
-  <span className="text-gray-300">|</span>
-  <a
-    href="https://www.linkedin.com/in/tarunjagadish/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-primary-600 hover:text-primary-700 font-medium"
-  >
-    LinkedIn
-  </a>
-  <span className="text-gray-300">|</span>
-  <a
-    href="https://github.com/tarunjag28"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-primary-600 hover:text-primary-700 font-medium"
-  >
-    GitHub
-  </a>
-</div>
-
+                <a
+                  href="mailto:tarunjagadish28@gmail.com"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Email
+                </a>
+                <span className="text-gray-300">|</span>
+                <a
+                  href="https://www.linkedin.com/in/tarunjagadish/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  LinkedIn
+                </a>
+                <span className="text-gray-300">|</span>
+                <a
+                  href="https://github.com/tarunjag28"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  GitHub
+                </a>
+              </div>
           </div>
         </div>
       </section>
