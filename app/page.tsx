@@ -281,7 +281,7 @@ export default function Home() {
                 </a>
                 <span className="text-gray-300">|</span>
                 <a
-                  href="#contact"
+                  href="https://github.com/tarunjag28"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 hover:text-primary-700 font-medium"
